@@ -2,8 +2,8 @@
 
 // function Footer({ name }) {
 //   return (
-//     <footer>
-//       <p>&copy; {new Date().getFullYear()} Hunain Mahudawala. All rights reserved.</p>
+//     <footer className="footer">
+//       <p>&copy; {new Date().getFullYear()} {name}. All rights reserved.</p>
 //     </footer>
 //   );
 // }

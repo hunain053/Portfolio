@@ -1,8 +1,6 @@
 import React from 'react';
-import ProfileImage from '../assets/profile.jpg';
 
 function Header({ name, role }) {
-  const timestamp = new Date().getTime();
   return (
     <div className="header-section">
       <div className="info">
@@ -10,10 +8,7 @@ function Header({ name, role }) {
         <p>{role}</p>
       </div>
       <div className="profile-pic">
-        <img
-          src={`${ProfileImage}?v=${timestamp}`}
-          alt="Profile"
-        />
+        <img src="/assets/profile.jpg" alt="Profile" /> {/* Use absolute path */}
       </div>
     </div>
   );
