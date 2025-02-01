@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaInstagram } from 'react-icons/fa';
 
 function About({ about, contact }) {
   return (
@@ -13,8 +13,8 @@ function About({ about, contact }) {
         <a href={contact.linkedin} target="_blank" rel="noopener noreferrer">
           <FaLinkedin /> LinkedIn
         </a>
-        <a href={contact.twitter} target="_blank" rel="noopener noreferrer">
-          <FaTwitter /> Twitter
+        <a href={contact.instagram} target="_blank" rel="noopener noreferrer">
+          <FaInstagram /> Instagram
         </a>
         <a href={`mailto:${contact.email}`}>
           <FaEnvelope /> Email
