@@ -7,7 +7,7 @@
       "id": 1,
       "title": "Sales Reflect",
       "year": 2025,
-      "status": "Active",
+      "status": "OnGoing",
       "description": "A web/mobile app for sales teams to log customer details, sales, and transactions. Data is securely stored in the cloud and shown on a real-time admin dashboard. Goal: Simplify data management, reduce manual work, and improve decisions.",
       "tags": ["React", "Express.js", "Tailwind CSS", "Node.js", "MongoDB"],
       "url": "/"
