@@ -8,10 +8,9 @@ function Header({ name, role }) {
         <p>{role}</p>
       </div>
       <div className="profile-pic">
-        <img src="/assets/profile.jpg" alt="Profile" /> {/* Use absolute path */}
+        <img src="/assets/profile2.jpg" alt="Profile" /> {/* Use absolute path */}
       </div>
     </div>
   );
 }
-
 export default Header;
