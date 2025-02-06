@@ -23,7 +23,7 @@ function Projects({ projects }) {
             </div>
             <a href={project.url} className="website-btn" target="_blank" rel="noopener noreferrer">
               <FaGlobe />
-              Website
+              Code
             </a>
           </div>
         ))}
